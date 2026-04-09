@@ -8,7 +8,7 @@ import random
 # Page Config
 # -----------------------------
 st.set_page_config(
-    page_title="MoodLens – Emotion Detection",
+    page_title="EmoSenseAi – Emotion Detection",
     page_icon="🧠",
     layout="centered"
 )
@@ -295,7 +295,7 @@ if "history" not in st.session_state:
 # -----------------------------
 st.markdown("""
 <div class="app-header">
-    <h1>🧠 MoodLens</h1>
+    <h1>🧠 EmoSenseAi</h1>
     <p>Detect the emotion behind your words and get personalised support</p>
 </div>
 """, unsafe_allow_html=True)
